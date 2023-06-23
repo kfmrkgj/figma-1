@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background: #c8a35f;
+    color: #ffffff;
+
+}
+
+
+.header .container {
+    width: 1110px;
+    margin: 0 auto;
+    
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .lang{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+
+
+}
+.header .container.lang p{ 
+    text-transform: capitalize;
+opacity: 50%;
+
+}
+.header.container.lang p.active{ opacity: 1;
+}
